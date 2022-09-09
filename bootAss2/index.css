@@ -1,0 +1,151 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#title{
+    background-color:#100ceea6 ;
+    color:#fff;
+    
+}
+h1{
+    font-family:montserrat-black ;
+    font-size:4.5rem ;
+    line-height: 1.5;
+    padding-top: 90px;
+}
+.para1{
+    font-size: 2.5rem;
+}
+span{
+    border:none;
+    border-bottom: 3px solid rgb(128, 240, 128);
+    font-weight: bolder;
+}
+/*container*/
+.container-fluid{
+    padding:3% 3%;
+}
+/*navabar*/
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-expand-lg{
+    justify-content: flex-end;
+}
+.navbar{
+   
+    padding-top: 0%;
+    
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-family:montserrat-light ;
+    font-size: 1.2rem;
+}
+.down-btn{
+    border-radius: 20px;
+    
+    background-color: rgb(128, 240, 128);
+    color: #fff;
+    padding:9px 55px;
+    
+}
+/*title image*/
+.title-img{
+    width:70%;
+  padding-left: 10%;
+  padding-bottom: 0%;
+  margin-left:20% ;
+}
+/*about*/
+#about{
+    padding-top: 3% 3%;
+}
+.about-img{
+    padding-top: 30%;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:3.7rem ;
+    line-height: 1;
+    color: rgba(28, 28, 129, 0.918);
+    padding-top: 3%;
+
+}
+.para-about{
+    
+    padding-top: 15px;
+}
+h3{
+    padding-top: 9%;
+    padding-right:3%;
+
+}
+/*feature*/
+#features{
+    padding:3% 3%;
+
+}
+/*.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }*/.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    background-color:transparent;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: aliceblue;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+  }
+  /*gallery*/
+  #gallery{
+    padding:3% 3%;
+  }
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:3px;
+    background-color:transparent;
+    padding: 5px;
+  }
+  
+  .grid-container1 > div {
+
+    border: none;
+    text-align: center;
+  }
+  /*test*/
+  #testimonials{
+    padding:15% 3%;
+    background-color:#100ceea6 ;
+    color:#fff;
+    
+    text-align: center;
+    
+}
+.text-img{
+    width:10%;
+    border-radius:100px;
+}
+
+
+
